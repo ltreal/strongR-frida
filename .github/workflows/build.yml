@@ -110,7 +110,7 @@ jobs:
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
-        git clone https://github.com/xmhwws/strongR-frida.git
+        git clone https://github.com/ltreal/strongR-frida.git
         export ANDROID_NDK_ROOT=${{ steps.setup-ndk.outputs.ndk-path }}
         git clone --recurse-submodules https://github.com/frida/frida
         cd frida/frida-core
